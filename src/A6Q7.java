@@ -20,7 +20,7 @@ public class A6Q7 {
             number[i] = i;
         }
         //finds all prime numbers from 2 to 1000 by setting all non-primes to -1, then 
-        //displaying all numbers not set to -1
+        //displays all numbers not set to -1
         for (int p = 2; p < 1000;) {
             if (number[p] != -1) {
                 int increment = p;
